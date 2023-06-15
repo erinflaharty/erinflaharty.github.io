@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home</title>
+		<!--
+			Project Part2
+			Author: Erin Flaharty
+		-->
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<div id="content">
+	<body>
+		<header>
+			<h1>Erin Flaharty</h1>
+			<nav id="main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="contact.html">Contact Me</a></li>
+				</ul>
+			</nav>
+		</header>
+			<main>
+			<section>
+				<h2>Directions</h2>
+				<h3>Charles R Drew Wellness Center</h3>
+				<p>2102 Walker Solomon Way</p>
+				<p>Columbia, SC 29204</p>
+			</section>
+			<section>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13228.506695745506!2d-81.02865395747071!3d34.014959262259445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8a5245c8e6031%3A0x4cea4280ab698d49!2sCharles%20R%20Drew%20Wellness%20Center!5e0!3m2!1sen!2sus!4v1686193870721!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</section>
+			<section>
+				<h2>Contact Me</h2>
+				<form action="https://api.web3forms.com/submit" method="POST">
+
+					<input type="hidden" name="access_key" value="8b542c66-7c22-433f-b3f1-f49245daef07">
+					
+					<h3>Name:</h3>
+					<input type="name" name="name" required>
+					
+					<h3>Email:</h3>
+					<input type="email" name="email" required>
+					
+					<h3>Message:</h3>
+					<textarea name="message" required></textarea>
+					<input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+					<button type="submit">Submit Form</button>
+
+				</form>
+			</section>
+		<footer>
+			<p>&copy; erinflaharty</p>
+		</footer>
+	<script src="script.js"></script>
+	</body>
+	</div>
+</html>
